@@ -1,0 +1,235 @@
+<!--Gutiérrez Ceñal, Begoña. DNI:53549935R-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--inclusion de hoja de estilo -->
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- hoja de estilo del proyecto-->
+    <link href="css/estilo.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="favicon-32x32" href="img/favicon-32x32.png"/>
+    <!-- hoja de estilos para utilizar icons de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+    <title>Asturias</title>
+  </head>
+  
+  <body>
+
+<!-----------------------------HEADER---------------------------->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="img/Viajar es un Placer.png" alt="En Familia">
+            <span class="text-black fs-3 fw-bold">Viajar es un Placer</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                    España
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="asturias.html">Asturias</a></li>
+                  <li><a class="dropdown-item" href="https://leon.es/">Leon</a></li>
+                  <li><a class="dropdown-item" href="https://www.visit-pontevedra.com/">Pontevedra</a></li>
+                  <li><a class="dropdown-item" href="https://www.sevilla.org/">Sevilla</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                    Europa
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://es.parisinfo.com/">Paris</a></li>
+                  <li><a class="dropdown-item" href="https://www.visitrovaniemi.fi/es/">Rovaniemi</a></li>
+                  <li><a class="dropdown-item" href="https://www.visitlondon.com/es">Londres</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-3" type="email" placeholder="Correo Electronico" aria-label="Email"/>
+              <button class="btn btn-outline-secondary" type="submit">
+                Suscribir
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!----------- SECCION CENTRAL VIDEO ------->
+    <section>
+        <video class="w-100"  controls autoplay loop muted>
+            <source src="resources/Lago - 116459.mp4" type="video/mp4" />
+          </video>
+    </section>
+
+<!--------------- SECCION CENTRAL TEXTO ---------------->
+    <main class="container-fluid asturias">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center">Asturias, Paraiso Natural</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p>Ya lo decía Victor Manuel,<br>Asturias verde de montes<br>y negra de minerales.</p>
+                <figure>
+                    <img src="img/montes.jpg" class="img-fluid" alt="montes" width="600" height="400" title="Montes Asturias">
+                    <figcaption>Montes Asturianos.</figcaption>
+                </figure>
+                <p>Asturias es una comunidad autonoma del norte de España, bañada por el Cantábrico. A nosotros nos encanta, por supuesto es donde vivimos, pero además nos gusta porque tiene mucho que ofrecer. Da igual el tipo de viaje que te hayas propuesto, en pareja, en familia, con mascota... Si eres mas aventurero o lo tuyo son los hoteles de lujo... Todas las opciones están cubiertas en Asturias.</p>
+                <figure>
+                    <img src="img/mar.jpg" class="img-fluid"  alt="mar" width="600" height="400" title="Costa Asturias">
+                    <figcaption>Imagen de la costa Asturiana.</figcaption>
+                </figure>
+                <p>Asturias es una provincia rica en Arte, pero en ARTE con mayúsculas, nuestro prerrománico es Patrimonio de la Humanidad desde 1985, con influencias musulmanas, visigodas y del arte románico Francés. Tenemos de todo para que visites, pasees y disfrutes.</p>
+                <figure>
+                    <img src="img/puenteCangas.jpg" class="img-fluid" alt="puente" width="600" height="400" title="Puente Cangas">
+                    <figcaption>Puente romano de Cangas de Onís.</figcaption>
+                </figure>
+                <p>Todo tipo de obras tanto arquitectonicas como artísticas, museos, exposiciones, mercados, todo tipo de actividades.</p>
+                <p>Y si hablamos de arte, no nos podemos olvidar de la musica Asturiana, desde los interpretes mas tradicionales, como <a href="https://es.wikipedia.org/wiki/Vicente_D%C3%ADaz_(cantante)">Vicente Diaz</a> o <a href="https://es.wikipedia.org/wiki/Xuacu_Amieva">Xuacu Amieva</a>, hasta cantautores o grupos mucho mas modernos y actuales.</p>
+                <figure>
+                    <img src="img/covadonga.jpg" class="img-fluid"  alt="covadonga" width="400" height="600" title="Basilica Covadonga">
+                    <figcaption>Basilica de Covadonga.</figcaption>
+                </figure>
+                <p>Tambien tenemos una Arquitectura barroca que merece la pena visitar, como el <a href="http://www.museobbaa.com/"> Museo de Bellas Artes</a> de Oviedo, hay que disfrutarlo por dentro y por fuera... O Arquitectura románica como el<a href="https://es.wikipedia.org/wiki/Monasterio_de_San_Pedro_de_Villanueva"> Monasterio de San Pedro de Villanueva</a>, en Cangas de Onis.</p>
+                <p>Un gran plan, visitar Cangas de Onís, su mercado, el Monasterio, comer en cualquiera de los maravillosos restaurantes que puedes encontrar y para terminar el dia... subir a Covadonga, visitar la Basílica y la cueva y, por último llegar a Lagos. Que mejor manera de despedir el dia que con una puesta de sol en un paisaje así.</p>
+                <figure>
+                    <img src="img/torreon.jpg" class="img-fluid"  alt="torreon" width="600" height="400" title="Torreon">
+                    <figcaption>Torreon de Peñerudes en Moncín.</figcaption>
+                </figure>
+                <p>Provincia de ciencia y científicos, como <a href="https://es.wikipedia.org/wiki/Severo_Ochoa">Severo Ochoa</a>, natural de <a href="https://www.turismoluarca.com/index.php">Luarca</a>  o <a href="https://es.wikipedia.org/wiki/Margarita_Salas">Margarita Salas</a> que nació en un pueblecito de Valdés llamado Canero (al lado de Luarca). Ambos tienen sus museos en esta villa costera.</p>
+                <figure>
+                    <img src="img/margarita.jpg" class="img-fluid"  alt="margarita" width="600" height="400" title="Margarita">
+                    <figcaption>Foto de Margarita Salas extraida del diario El País.</figcaption>
+                </figure>
+                <p>Famosa por su gastronomia, sus quesos, sus postres y la tradicional sidra. Es sin duda un lugar que merece la pena visitar.</p>
+                <figure>
+                    <img src="img/tortos.jpg" class="img-fluid"  alt="tortos" width="600" height="400" title="Tortos">
+                    <figcaption>Tortos de harina de maíz.</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+
+<!-----------------------------FOOTER---------------------------->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Sigue conectado con nosotros</span>
+            </div>
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </section>
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Conocenos
+                        </h6>
+                        <p>
+                            <a href="nosotros.html" class="text-reset">Nosotros</a>
+                        </p>
+                        <p>
+                          <a href="mapaWeb.html" 
+                          class="text-reset">Mapa Web</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        España</h6>
+                        <p>
+                            <a href="asturias.html" class="text-reset">Asturias</a>
+                        </p>
+                        <p>
+                            <a href="https://leon.es/" class="text-reset">Leon</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visit-pontevedra.com/" class="text-reset">Pontevedra</a>
+                        </p>
+                        <p>
+                            <a href="https://www.sevilla.org/" class="text-reset">Sevilla</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Europa</h6>
+                        <p>
+                            <a href="https://es.parisinfo.com/" class="text-reset">Paris</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visitrovaniemi.fi/es/" class="text-reset">Rovaniemi</a>
+                        </p>
+                        <p>
+                            <a href="https://www.visitlondon.com/es" class="text-reset">Londres</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Gijon, Asturias</p>
+                        <p><i class="fas fa-envelope me-3"></i>
+                            viajar_es_un_placer@gmail.com
+                        </p>
+                        <p><i class="bi bi-telephone"></i>123 456 789</p>
+                        <p><i class="bi bi-phone"></i>987 654 321</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!--------------- Copyright --------------->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold">
+              Begoña Gutierrez Ceñal
+            </a>
+        </div>
+          <!-- Copyright -->
+    </footer>     
+
+<!------ enlace ficheros js para funcionamiento dropdown------->
+        <script src="bs/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,265 @@
+<!--Gutiérrez Ceñal, Begoña. DNI:53549935R-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--inclusion de hoja de estilo -->
+        <link href="bs/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- hoja de estilo del proyecto-->
+        <link href="css/estilo.css" rel="stylesheet" />
+        <link rel="icon" type="image/png" sizes="favicon-32x32" href="img/favicon-32x32.png"/>
+        <!-- hoja de estilos para utilizar icons de bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"/>
+        <title>Mapa Web</title>
+    </head>
+    <body>
+
+<!-- BARRA DE NAVEGACION EN EL HEADER -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-white bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img id="logo" src="img/Viajar es un Placer.png" alt="En Familia">
+              <span class="text-black fs-3 fw-bold">Viajar es un Placer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                      España
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="asturias.html">Asturias</a></li>
+                    <li><a class="dropdown-item" href="https://leon.es/">Leon</a></li>
+                    <li><a class="dropdown-item" href="https://www.visit-pontevedra.com/">Pontevedra</a></li>
+                    <li><a class="dropdown-item" href="https://www.sevilla.org/">Sevilla</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                      Europa
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://es.parisinfo.com/">Paris</a></li>
+                    <li><a class="dropdown-item" href="https://www.visitrovaniemi.fi/es/">Rovaniemi</a></li>
+                    <li><a class="dropdown-item" href="https://www.visitlondon.com/es">Londres</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-3" type="email" placeholder="Correo Electronico" aria-label="Email"/>
+                <button class="btn btn-outline-secondary" type="submit">
+                  Suscribir
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+     
+<!-----------SECCION CENTRAL CON INFORMACION PRINCIPAL--------------->
+      <main class="container" id="mapa">
+        <section class="container-fluid">
+          <section class="title">
+            <div class="col">
+              <h1 class="text-center">Mapa Web</h1>
+            </div>      
+          </section>
+          <section class="container">
+            <div class="row">
+              <div class="nodo1">
+                <h2 class="title_description">
+                  <a class="text-black" href="index.html" title="Inicio">Inicio</a>
+                </h2>
+              </div>
+              <div class="nodo2">
+                <h2 class="title_description">
+                  <a class="text-black" href="nosotros.html" title="Nosotros">Nosotros</a>
+                </h2>
+              </div>
+              <div class="nodo3">
+                <h2 class="title_description">
+                  <p class="text-black" title="España">España</p>
+                </h2>
+                <ul class="listaEspaña">
+                  <li class="lnk first_child">
+                    <a href="https://www.asturias.es/">Asturias</a>
+                  </li>
+                  <li class="lnk">
+                    <a href="https://leon.es/">Leon</a>
+                  </li>
+                  <li class="lnk">
+                    <a href="https://www.visit-pontevedra.com/">Pontevedra</a>
+                  </li>
+                  <li class="lnk">
+                    <a href="https://www.sevilla.org/">Sevilla</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="nodo4">
+                <h2 class="title_description">
+                  <p class="text-black" title="Europa">Europa</p>
+                </h2>
+                <ul class="listaEuropa">
+                  <li class="lnk first_child">
+                    <a href="https://es.parisinfo.com/">Paris</a>
+                  </li>
+                  <li class="lnk">
+                    <a href="https://www.visitrovaniemi.fi/es/">Rovaniemi</a>
+                  </li>
+                  <li class="lnk">
+                    <a href="https://www.visitlondon.com/es">Londres</a>
+                  </li>
+                </ul>                
+              </div>             
+            </div>
+          </section>
+        </section>
+      </main>
+
+<!-- FOOTER -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Sigue conectado con nosotros</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Conocenos
+                </h6>
+                <p>
+                  <a href="nosotros.html" class="text-reset">Nosotros</a>
+                </p>
+                <p>
+                  <a href="mapaWeb.html" 
+                  class="text-reset">Mapa Web</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  España
+                </h6>
+                <p>
+                  <a href="asturias.html" class="text-reset">Asturias</a>
+                </p>
+                <p>
+                  <a href="https://leon.es/" class="text-reset">Leon</a>
+                </p>
+                <p>
+                  <a href="https://www.visit-pontevedra.com/" class="text-reset">Pontevedra</a>
+                </p>
+                <p>
+                  <a href="https://www.sevilla.org/" class="text-reset">Sevilla</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Europa
+                </h6>
+                <p>
+                  <a href="https://es.parisinfo.com/" class="text-reset">Paris</a>
+                </p>
+                <p>
+                  <a href="https://www.visitrovaniemi.fi/es/" class="text-reset">Rovaniemi</a>
+                </p>
+                <p>
+                  <a href="https://www.visitlondon.com/es" class="text-reset">Londres</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> Gijon, Asturias</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  viajar_es_un_placer@gmail.com
+                </p>
+                <p><i class="bi bi-telephone"></i>123 456 789</p>
+                <p><i class="bi bi-phone"></i>987 654 321</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2023 Copyright:
+          <a class="text-reset fw-bold">
+            Begoña Gutierrez Ceñal
+          </a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="bs/js/bootstrap.bundle.min.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+

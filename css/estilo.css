@@ -1,0 +1,81 @@
+/** Gutiérrez Ceñal, Begoña. DNI:53549935R **/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    font-family: 'Indie Flower', cursive;
+  
+}
+
+header {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.columnas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+:link{
+    color: black;
+}
+.nav-link.active {
+    background-color: lightgrey;
+    color:white;
+}
+
+.nav-link:hover {
+    background-color: rgb(213, 213, 213);
+    color: white;
+}
+
+.nav-link.disabled {
+    color: rgb(213,213,213);
+}
+
+
+#formContacto {
+    padding: 20px;    
+}
+
+#contacto {
+    padding-bottom: 20px;
+    text-align: center;
+}
+ 
+#contacto2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+figcaption {
+    font-size: smaller;
+
+}
+
+#logo {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    width: 50px;
+    height: 50px;
+}
